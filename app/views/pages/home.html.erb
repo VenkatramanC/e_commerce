@@ -1,11 +1,12 @@
 <div class="container-fluid">
   <div class="row well jumbotron">
-    <h1>E-Commerce</h1>
+    <h2>Welcome to E-Commerce</h2>
+    <p>The Largest Books store</p>
     <% if current_user %>
-      <%= link_to "Books", pages_home_path ,class: "btn btn-primary btn-lg"%>
+      <%= link_to "Books", pages_home_path ,class: "btn btn-primary"%>
     <% else %>
-      <%= link_to "Books", pages_home_path ,class: "btn btn-primary btn-lg"%>
-      <%= link_to "sign-up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+      <%= link_to "Books", books_path ,class: "btn btn-primary"%>
+      <%= link_to "sign-up", new_user_registration_path, class: "btn btn-primary" %>
     <% end %>
   </div>
 </div>
