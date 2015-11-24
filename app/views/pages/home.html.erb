@@ -1,2 +1,11 @@
-<h1>Pages#home</h1>
-<p>Welcome to Our App</p>
+<div class="container-fluid">
+  <div class="row well jumbotron">
+    <h1>E-Commerce</h1>
+    <% if current_user %>
+      <%= link_to "Books", pages_home_path ,class: "btn btn-primary btn-lg"%>
+    <% else %>
+      <%= link_to "Books", pages_home_path ,class: "btn btn-primary btn-lg"%>
+      <%= link_to "sign-up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+    <% end %>
+  </div>
+</div>
