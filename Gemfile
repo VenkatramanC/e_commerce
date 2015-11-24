@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Bootstrap Gem Added Here
 gem 'bootstrap-sass', '~> 3.3.5'
 
-# Bootswatch Theme Added Heres
+# Bootswatch Theme Added Here
 gem 'bootswatch-rails'
 
 # Simpleform Gem instaling for simple form
