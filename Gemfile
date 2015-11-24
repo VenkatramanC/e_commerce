@@ -32,6 +32,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Bootstrap Gem Added Here
+gem 'bootstrap-sass', '~> 3.3.5'
+
+# Bootswatch Theme Added Heres
+gem 'bootswatch-rails'
+
+# Simpleform Gem instaling for simple form
+gem 'simple_form'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
