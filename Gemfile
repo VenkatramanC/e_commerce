@@ -41,6 +41,9 @@ gem 'bootswatch-rails'
 # Simpleform Gem instaling for simple form
 gem 'simple_form'
 
+# Devise is for adding users 
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
